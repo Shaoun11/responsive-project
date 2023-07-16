@@ -163,6 +163,16 @@ font-size: 17px;
 font-weight: 600;
 margin-top:4px;
 }
+.sponsor{
+    text-align: center;
+}
+.sponsor-img-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: center;
+}
 
 
 /* responsive-design */
@@ -194,9 +204,9 @@ margin-top:4px;
             margin: 0px;
             padding: 0%;
           }
-          
-     
-   
+          .sponsor-img-container{
+            flex-direction: column;
+          }
   }
   
   /* responsive for medium device */
@@ -226,6 +236,9 @@ margin-top:4px;
           }
           .fact{
             margin: 0px;padding: 0%;
+          }
+          .sponsor-img-container{
+            flex-direction: column;
           }
   
   }
