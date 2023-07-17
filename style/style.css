@@ -78,7 +78,6 @@ main {
   display: flex;
   align-items: center;
   border-radius: 8px;
-  
 }
 .team-img {
   display: grid;
@@ -119,126 +118,139 @@ main {
   line-height: 26px;
 }
 
-.facts-title{
-color: #131313;
-font-size: 45px;
-font-weight: 700;
-margin-bottom: 18px;
+.facts-title {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 18px;
 }
- .fact-des{
-color:#727272;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-margin-bottom: 39px;
- }
- .fact{
-    margin: 1440px;
-    margin: 40px 240px;
-    background-color: rgb(255, 255, 255);
- }
- 
- .card{
-    border-radius: 8px;
-    border: 1px solid #FF900E;
-    text-align: center;
-    padding: 30px;
-    
- }
-.card-section{
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
+.fact-des {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 39px;
 }
-.card-title{
-    color:#424242;
-    font-size: 40px;
-    font-weight: 600;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.card-description{
-color: #727272;
-font-size: 17px;
-font-weight: 600;
-margin-top:4px;
-}
-.sponsor{
-    text-align: center;
-}
-.sponsor-img-container{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 40px;
-    align-items: center;
+.fact {
+  margin: 1440px;
+  margin: 40px 240px;
+  background-color: rgb(255, 255, 255);
 }
 
+.card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 30px;
+}
+.card-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.card-title {
+  color: #424242;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card-description {
+  color: #727272;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+.sponsor {
+  text-align: center;
+}
+.sponsor-img-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  align-items: center;
+}
+.footer {
+  color: #424242;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+ 
+}
+footer{
+  border-radius: 8px;
+background: #FFF4E7;
+}
 
 /* responsive-design */
 /* responsive for mobile */
 @media screen and (max-width: 576px) {
-    header {
-      padding: 20px;
-    }
-    nav,.team-content {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    .team-img{
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-left: 0%;
-    }
-    main {
-        margin: 10%;
-    }
-    .team-info {
-        margin-left: 7px;
-        margin-right: 7px;}
-        .card-section{
-          flex-direction: column;
-         
-        }
-        .fact{
-            margin: 0px;
-            padding: 0%;
-          }
-          .sponsor-img-container{
-            flex-direction: column;
-          }
+  header {
+    padding: 20px;
+  }
+  nav,
+  .team-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .team-img {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0%;
+  }
+  main {
+    margin: 10%;
+  }
+  .team-info {
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  .card-section {
+    flex-direction: column;
+  }
+  .fact {
+    margin: 0px;
+    padding: 0%;
+  }
+  .sponsor-img-container {
+    flex-direction: column;
+  }
+
+}
+
+/* responsive for medium device */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  header {
+    padding: 50px;
+  }
+  nav,
+  .team-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .team-img {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0%;
+  }
+  main {
+    margin: 10%;
+  }
+  .team-info {
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  .card-section {
+    flex-direction: column;
+  }
+  .fact {
+    margin: 0px;
+    padding: 0%;
+  }
+  .sponsor-img-container {
+    flex-direction: column;
   }
   
-  /* responsive for medium device */
-  @media screen and (min-width: 576px) and (max-width: 960px) {
-    header {
-      padding: 50px;
-    }
-    nav,.team-content  {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    .team-img{
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-left: 0%;
-       
-    }
-    main {
-        margin: 10%;
-    }
-    .team-info {
-        margin-left: 7px;
-        margin-right: 7px;}
-        .card-section{
-            flex-direction: column;
-           
-          }
-          .fact{
-            margin: 0px;padding: 0%;
-          }
-          .sponsor-img-container{
-            flex-direction: column;
-          }
   
-  }
+}
